@@ -154,171 +154,52 @@ div.name {
     color: cadetblue;
 }
 
-.heading-1 {
-    font-size: 40px;
-}
-
-.text-1 {
-    color: whitesmoke;
-}
-
-
-
-
-
-.div-1 {
-    margin-top: 66px;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 100px 4vw;
-    color: black;
-    background-color: #98d9e1;
-    background-image: linear-gradient(315deg, #98d9e1 0%, #d6aed6 74%);
-}
-
-
 
 
 
 .atikle-container {
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 92%;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    gap: 40px;
-}
-
-.column {
-    flex: 30%;
-    min-width: 300px;
-    max-width: 900px;
-    /* padding: 10px 10px; */
-    border-radius: 20px;
-    background-color: #f8f9fa;
-}
-
-.column-content {
-    padding: 30px 20px;
-}
-
-.column img {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    vertical-align: middle;
     width: 100%;
-}
-
-.column-heading {
-    color: black;
-    font-size: 20px;
-    font-weight: 900;
-    padding: 15px 0px;
-}
-
-.column-text {
-    font-size: 17px;
-    padding: 15px 5px;
-}
-
-.column-date {
-    color: silver;
-    font-weight: 700;
-    padding: 20px 0px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-
-
-
-
-.page-switcher-bar {
-    width: 300px;
-    margin: auto;
-    padding: 20px 20px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-}
-
-.page-switch-button {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: 900;
-    color: black;
-    background-color: white;
-    border: 0px;
-    border-radius: 10px;
-    margin: auto;
-    cursor: pointer;
-}
-
-.page-switch-button:hover {
-    background-color: whitesmoke;
-}
-
-.inactive {
-    color: silver;
-    cursor: default;
-}
-
-.inactive:hover {
-    color: silver;
-    background-color: white;
-}
-
-.page-number {
-    height: 30px;
-    padding: 5px 30px;
+    margin-top: 66px;
+    align-items: center;
     text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-    color: black;
-    background-color: white;
-    border: 0px;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
-.page-number:hover {
-    background-color: whitesmoke;
-}
-
-
-footer {
+.date {
     width: 100%;
-    height: 300px;
-    display: flex;
-    background-image: url(https://atikle.github.io/resource/background/background-1.webp);
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: silver;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 7%;
 }
 
-.footer-container-1 {
-    width: 150px;
-    padding-top: 100px;
-    padding-left: 10vw;
+h1 {
+    font-size: 42px;
+    font-weight: 900;
+    padding: 35px 10px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.atikle-banner {
+    width: 80vw;
+    min-width: 300px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    padding: 30px 0;
+    padding-top: 70px;
+}
+
+.atikle-story {
+    width: 60%;
+    min-width: 40vh;
+    margin: auto;
+    text-align: start;
+    color: black;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Poppins', sans-serif;
 }
