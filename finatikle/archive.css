@@ -32,6 +32,12 @@ a {
     color: whitesmoke;
 }
 
+.fixed-width-container {
+    width: 100%;
+    max-width: 1650px;
+    margin: auto;
+}
+
 .div-1 {
     margin-top: 66px;
     font-size: 20px;
@@ -48,7 +54,7 @@ a {
     margin: auto;
     padding-top: 5%;
     padding-bottom: 5%;
-    max-width: 1700px;
+    max-width: 1600px;
 }
 
 .collapsible {
