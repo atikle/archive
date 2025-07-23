@@ -76,7 +76,7 @@
     <div id="navbar-placeholder"></div>
 
     <div class="div-1">
-        <div class="fixed-width-container">
+        <div class="max-width-1650">
 
             <font class="heading-1">
                 Archive | <font class="fin">fin</font><font class="atikle">atikle</font>
@@ -86,42 +86,44 @@
     </div>
 
     <div class="filter-master-container">
+        <div class="max-width-1600">
 
-        <div class="collapsible-wrapper">
-            <button type="button" class="collapsible">2025</button>
-            <div class="content">
-                <!-- <a href="https://atikle.github.io/archive/finatikle/202/January">January</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/Feburary">Feburary</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/March">March</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/April">April</a> -->
-                <a href="https://atikle.github.io/archive/finatikle/2025/May">May</a>
-                <!-- <a href="https://atikle.github.io/archive/finatikle/202/June">June</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/July">July</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/August">August</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/September">September</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/October">October</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/November">November</a>
-                <a href="https://atikle.github.io/archive/finatikle/202/December">December</a> -->
+            <div class="collapsible-wrapper">
+                <button type="button" class="collapsible">2025</button>
+                <div class="content">
+                    <!-- <a href="https://atikle.github.io/archive/finatikle/202/January">January</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/Feburary">Feburary</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/March">March</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/April">April</a> -->
+                    <a href="https://atikle.github.io/archive/finatikle/2025/May">May</a>
+                    <!-- <a href="https://atikle.github.io/archive/finatikle/202/June">June</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/July">July</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/August">August</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/September">September</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/October">October</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/November">November</a>
+                    <a href="https://atikle.github.io/archive/finatikle/202/December">December</a> -->
+                </div>
             </div>
+
+            <script>
+                const coll = document.getElementsByClassName("collapsible");
+                let i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        let content = this.nextElementSibling;
+                        if (content.style.maxHeight) {
+                            content.style.maxHeight = null;
+                        } else {
+                            content.style.maxHeight = content.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+
         </div>
-
-        <script>
-            const coll = document.getElementsByClassName("collapsible");
-            let i;
-
-            for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    let content = this.nextElementSibling;
-                    if (content.style.maxHeight) {
-                        content.style.maxHeight = null;
-                    } else {
-                        content.style.maxHeight = content.scrollHeight + "px";
-                    }
-                });
-            }
-        </script>
-
     </div>
 
 </body>

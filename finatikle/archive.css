@@ -17,11 +17,6 @@ a {
     color: black;
 }
 
-::selection {
-    color: silver;
-    background: transparent;
-}
-
 
 
 .heading-1 {
@@ -30,12 +25,6 @@ a {
 
 .text-1 {
     color: whitesmoke;
-}
-
-.fixed-width-container {
-    width: 100%;
-    max-width: 1650px;
-    margin: auto;
 }
 
 .div-1 {
@@ -54,7 +43,6 @@ a {
     margin: auto;
     padding-top: 5%;
     padding-bottom: 5%;
-    max-width: 1600px;
 }
 
 .collapsible {
