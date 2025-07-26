@@ -4,8 +4,8 @@ html {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #e9ecef;
-    color: black;
+    background-color: var(--body-background-1);
+    color: var(--text-color-1);
     font-family: 'Poppins', sans-serif;
     border: 0;
     top: 0;
@@ -14,7 +14,7 @@ html {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: var(--text-color-1);
 }
 
 
@@ -24,7 +24,7 @@ a {
 }
 
 .text-1 {
-    color: whitesmoke;
+    color: var(--body-background-1);
 }
 
 .div-1 {
@@ -32,8 +32,8 @@ a {
     font-size: 20px;
     font-weight: 700;
     padding: 100px 3vw;
-    color: whitesmoke;
-    background-color: black;
+    color: var(--body-background-1);
+    background-color: var(--text-color-2);
 }
 
 
