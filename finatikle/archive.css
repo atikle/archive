@@ -1,13 +1,14 @@
 body {
     width: 100%;
+    height: 100%;
     margin: 0;
+    top: 0;
+    border: 0;
+    color: var(--text-primary);
+    background-color: var(--body-background-1);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: var(--body-background-1);
-    color: var(--text-primary);
     font-family: 'Poppins', sans-serif;
-    border: 0;
-    top: 0;
 }
 
 a {
@@ -67,7 +68,7 @@ a {
     overflow: hidden;
     transition: max-height 0.3s ease-out; /* Smooth transition */
     /* background-color: #f8f8f8; */
-    background-color: #444;
+    background-color: gray;
 }
 
 .content a {
@@ -81,8 +82,8 @@ a {
 
 .content a:hover {
     /* background-color: #f0f0f0; */
-    background-color: gray;
-    color: #222;
+    background-color: #444;
+    color: white;
 }
 
 .content a:last-child {
