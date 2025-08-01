@@ -66,19 +66,22 @@ a {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out; /* Smooth transition */
-    background-color: #f8f8f8; /* Very light background */
+    /* background-color: #f8f8f8; */
+    background-color: #444;
 }
 
 .content a {
     display: block;
     padding: 12px 12px;
     text-decoration: none;
-    color: #444; /* Medium dark text */
+    /* color: #444; */
+    color: whitesmoke;
     border-bottom: 1px solid #eee; /* Light border */
 }
 
 .content a:hover {
-    background-color: #f0f0f0; /* Slightly lighter on hover */
+    /* background-color: #f0f0f0; */
+    background-color: gray;
     color: #222;
 }
 
