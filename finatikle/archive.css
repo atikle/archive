@@ -4,8 +4,8 @@ body {
     margin: 0;
     top: 0;
     border: 0;
-    color: var(--text-primary);
-    background-color: var(--body-background-1);
+    color: var(--text-color-1);
+    background-color: var(--background-1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
@@ -32,7 +32,7 @@ a {
     font-size: 20px;
     font-weight: 700;
     padding: 100px 3vw;
-    color: var(--text-tertiary);
+    color: var(--text-color-3);
     background-color: var(--background-3);
 }
 
